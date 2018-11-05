@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Header from './Header'
 import PropTypes from 'prop-types'
+import Meta from './Meta';
 
 class Page extends Component {
   static propTypes = {
@@ -9,6 +10,7 @@ class Page extends Component {
   render () {
     return (
       <div>
+        <Meta />
         <Header />
         {this.props.children}
       </div>
