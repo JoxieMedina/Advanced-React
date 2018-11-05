@@ -1,7 +1,11 @@
 import React, { Component } from 'react'
 import Header from './Header'
+import PropTypes from 'prop-types'
 
-export default class Page extends Component {
+class Page extends Component {
+  static propTypes = {
+    children: PropTypes.object,
+  }
   render () {
     return (
       <div>
@@ -11,3 +15,5 @@ export default class Page extends Component {
     )
   }
 }
+
+export default Page

@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import {Link} from 'next'
+import { Link } from 'next'
 export default class Sell extends Component {
-  render() {
+  render () {
     return (
       <div>
         Sell!
@@ -10,5 +10,3 @@ export default class Sell extends Component {
     )
   }
 }
-
-
